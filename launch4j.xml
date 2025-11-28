@@ -1,0 +1,26 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+
+  <!-- This is your JAR name -->
+  <jar>Agent-1.0-SNAPSHOT.jar</jar>
+
+  <!-- Name of your EXE -->
+  <outfile>Agent.exe</outfile>
+
+  <!-- Main class inside your JAR -->
+  <classPath>
+    <mainClass>com.sharedpro.agent.Main</mainClass>
+  </classPath>
+
+  <!-- Require at least Java 17 or change as needed -->
+  <jre>
+    <minVersion>17</minVersion>
+  </jre>
+
+  <errTitle>Agent Error</errTitle>
+  <supportUrl>https://sharedpro.ai</supportUrl>
+  <chdir>.</chdir>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+</launch4jConfig>
