@@ -10,7 +10,7 @@
 
   <!-- Main class inside your JAR -->
   <classPath>
-    <mainClass>com.sharedpro.agent.Main</mainClass>
+    <mainClass>com.sharedpro.agent.Agent</mainClass>
   </classPath>
 
   <!-- Require at least Java 17 or change as needed -->
